@@ -101,6 +101,9 @@
             <img src="https://example.com/artwork1.jpg" alt="Artwork 1"> <!-- 替换为你的艺术作品图像URL -->
             <img src="https://example.com/artwork2.jpg" alt="Artwork 2">
             <img src="https://example.com/artwork3.jpg" alt="Artwork 3">
+            <img src="https://example.com/artwork4.jpg" alt="Artwork 4">
+            <img src="https://example.com/artwork5.jpg" alt="Artwork 5">
+            <img src="https://example.com/artwork6.jpg" alt="Artwork 6">
             <!-- 添加更多艺术作品图像 -->
         </div>
     </section>
@@ -109,8 +112,7 @@
         <p>在这里分享你的创作过程、艺术展览和活动参与的故事。</p>
     </section>
     <section id="contact" class="content">
-        <h2>联系方式</h2>
-        <p>通过以下方式联系我：</p>
+        <h2>联系方式</h<|meta_end|>        <p>通过以下方式联系我：</p>
         <ul>
             <li>Email: example@example.com</li>
             <li>Instagram: <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a></li>
