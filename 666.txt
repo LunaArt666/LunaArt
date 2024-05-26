@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penelope Paints - 油画艺术的世界</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .banner {
+            background-image: url('your-image-url.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .banner h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            transition: transform 0.2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">主页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#gallery">作品展示</a></li>
+                <li><a href="#blog">博客</a></li>
+                <li><a href="#contact">联系方式</a></li>
+                <li><a href="#cart">购物车</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+        <h1>Penelope Paints - 油画艺术的世界</h1>
+    </section>
+    <section id="about" class="content">
+        <h2>关于我</h2>
+        <p>欢迎来到Penelope Paints的艺术世界，这里展示了我最新的油画作品，每一幅画都充满了我的创作热情和灵感。探索我的画廊，发现属于你的艺术作品。</p>
+    </section>
+    <section id="gallery" class="content">
+        <h2>作品展示</h2>
+        <div class="gallery">
+            <img src="your-artwork-url-1.jpg" alt="Artwork 1">
+            <img src="your-artwork-url-2.jpg" alt="Artwork 2">
+            <img src="your-artwork-url-3.jpg" alt="Artwork 3">
+            <!-- Add more artwork images as needed -->
+        </div>
+    </section>
+    <section id="blog" class="content">
+        <h2>博客</h2>
+        <p>在这里分享你的创作过程、艺术展览和活动参与的故事。</p>
+    </section>
+    <section id="contact" class="content">
+        <h2>联系方式</h2>
+        <p>通过以下方式联系我：</p>
+        <ul>
+            <li>Email: example@example.com</li>
+            <li>Instagram: <a href="your-instagram-url" target="_blank">Instagram</a></li>
+            <li>Pinterest: <a href="your-pinterest-url" target="_blank">Pinterest</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Penelope Paints. All rights reserved.</p>
+    </footer>
+</body>
+</html>
